@@ -1,0 +1,235 @@
+.container {
+   margin: auto;
+   width: 900px;
+}
+
+.container header{
+    background-image: url(./images/XC40.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a {
+    color: #e77d7d;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+nav ul li:last-child a{
+    text-transform: uppercase;
+    color: black;
+    background-color: #ecdede;
+}
+
+nav ul li a:hover{
+    background-color: #ecdede;
+    cursor: pointer;
+}
+
+.container header h1{
+    font-family: 'Poppins';
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: start;
+    color: #e77d7d;
+    margin-left: 5%;
+}
+
+.container header p{
+    font-size: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: start;
+    color: #e77d7d;
+    margin-left: 5%;
+}
+
+.background-image {
+    flex: 0 0 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.display-flex {
+    display: flex;
+    max-height: 375px;
+}
+
+.volvo-xc90 .text, .volvo-xc60 .text{
+    flex: 0 0 50%;
+    background-color: #ecdede;
+    padding: 100px;
+}
+
+.volvo-xc90 .text p, .volvo-xc60 .text p{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.volvo-xc90 .image {
+    background-image: url(./images/xc90.jpg);
+}
+
+.volvo-xc60 .image {
+    background-image: url(./images/xc60.jpg);
+}
+
+.volvo-v40 div:first-child {
+    background-image: url(./images/v40.jpg);
+}
+
+.volvo-v40 div:last-child {
+    background-image: url(./images/v40crosscountry.jpg);
+}
+
+.volvo-v40 div {
+    padding: 300px 100px 50px 100px;
+    background-position: top center;
+    text-align: center;
+}
+
+.volvo-v40 h4 {
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.volvo-xc90 h4, .volvo-xc60 h4 {
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.display-flex a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e77d7d;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.testimonials {
+    padding: 80px 40px;
+    background-color: #ecdede;
+}
+
+.testimonials h2 {
+    font-family:'Poppins';
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.testimonials-client {
+    text-align: center;
+}
+
+.client-box img{
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.testimonials-client p:first-of-type {
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.testimonials-client p:last-child {
+    font-size: 12px;
+}
+
+.testimonials-client h4 {
+    font-size: 16px;
+}
+
+.inside-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.inside-volvo {
+  height: 100%;  
+  width: 100%;
+}
+
+footer {
+    background-color:#ecdede;
+    padding: 80px 40px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footer-nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+.footer-nav ul li a {
+    font-size: 16px;
+    color: #e77d7d;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-nav ul li a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px;
+    justify-content: center;
+}
+
+.social-media a img {
+    height: 20px;
+}

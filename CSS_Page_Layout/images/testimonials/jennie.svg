@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="25mm" height="25mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 717 717"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="629" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="500">
+	<font-face 
+		font-family="Barlow Medium">
+		<font-face-src>
+			<font-face-name name="Barlow Medium"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="J" horiz-adv-x="578" d="M260.999 -7.99603c-47.3266,0 -88.8304,8.99996 -124.5,26.9999 -35.6692,17.9999 -63.1651,43.3345 -82.4997,75.9918 -19.3346,32.6692 -28.9959,70.3344 -28.9959,113.007l0 70.9958c0,6.6732 3.3307,10.0039 9.99209,10.0039l76.0036 0c6.66139,0 10.0039,-3.3307 10.0039,-10.0039l0 -70.9958c0,-40.0038 12.6614,-72.1651 37.9959,-96.5075 25.3345,-24.3306 59.3383,-36.4959 102,-36.4959 41.3384,0 74.9997,12.1653 100.996,36.4959 26.0078,24.3424 38.9998,56.5037 38.9998,96.5075l0 481.994c0,6.6732 3.34251,10.0039 10.0039,10.0039l76.0036 0c6.66139,0 9.99209,-3.3307 9.99209,-10.0039l0 -481.994c0,-42.6731 -9.82673,-80.3383 -29.492,-113.007 -19.6653,-32.6574 -47.5037,-57.9919 -83.5036,-75.9918 -35.9999,-17.9999 -76.9958,-26.9999 -123,-26.9999z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Barlow Medium";font-variant:normal;font-style:normal;font-weight:500;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#6281BF}
+    .fil1 {fill:#FEFEFE}
+    .fnt0 {font-weight:500;font-size:242.979px;font-family:'Barlow Medium'}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M299 270l120 0 0 178 -120 0 0 -178z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0" cx="359" cy="359" r="359"/>
+  <g id="_2592174776256">
+   <g style="clip-path:url(#id0)">
+    <image x="299" y="270" width="120" height="178" xlink:href="14700-jennie-6f16bb02-665f-4841-bfdd-61bf0174608a_Images\14700-jennie-6f16bb02-665f-4841-bfdd-61bf0174608a_ImgID1.png"/>
+   </g>
+  </g>
+  <text x="295" y="443"  class="fil1 fnt0">J</text>
+ </g>
+</svg>
