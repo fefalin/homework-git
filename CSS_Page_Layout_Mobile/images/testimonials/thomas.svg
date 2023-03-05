@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="25mm" height="25mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1864 1864"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="629" font-variant="normal" style="fill-rule:nonzero" font-weight="500">
+	<font-face 
+		font-family="Barlow Medium">
+		<font-face-src>
+			<font-face-name name="Barlow Medium"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="T" horiz-adv-x="574" d="M527.006 700.001c6.66139,0 9.99209,-3.3307 9.99209,-10.0039l0 -63.9919c0,-6.6732 -3.3307,-10.0039 -9.99209,-10.0039l-192.011 0c-2.65747,0 -3.99211,-1.33464 -3.99211,-4.00392l0 -601.994c0,-6.6732 -3.3307,-10.0039 -10.0039,-10.0039l-76.0036 0c-6.66139,0 -9.99209,3.3307 -9.99209,10.0039l0 601.994c0,2.66928 -1.33464,4.00392 -4.00392,4.00392l-182.999 0c-6.66139,0 -10.0039,3.3307 -10.0039,10.0039l0 63.9919c0,6.6732 3.34251,10.0039 10.0039,10.0039l479.006 0z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Barlow Medium";font-variant:normal;font-weight:500;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#F5B3B6}
+    .fil1 {fill:#FEFEFE}
+    .fnt0 {font-weight:500;font-size:631.154px;font-family:'Barlow Medium'}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M766 703l331 0 0 458 -331 0 0 -458z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0" cx="932" cy="932" r="932"/>
+  <g id="_2592169593744">
+   <g style="clip-path:url(#id0)">
+    <image x="766" y="703" width="331" height="458" xlink:href="t.svg_Images\t.svg_ImgID1.png"/>
+   </g>
+  </g>
+  <text x="750" y="1153"  class="fil1 fnt0">T</text>
+ </g>
+</svg>

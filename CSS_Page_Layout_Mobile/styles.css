@@ -317,14 +317,3 @@ nav ul li a:hover{
 .social-media a img:hover {
     height: 22px;
 }
-
-
-
-
-
-@media (min-width: 640px) {
-    .header {
-        max-width: 100%;
-    }
-  
-}
