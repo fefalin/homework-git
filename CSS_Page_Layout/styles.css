@@ -22,7 +22,8 @@ a {
     'row7 row7'
     'row8 row8'
     'footer footer';
-    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(640px,1fr));
     grid-template-rows: 500px 375px 375px 375px 485px 280px 220px;
  }
  
@@ -316,15 +317,4 @@ nav ul li a:hover{
 
 .social-media a img:hover {
     height: 22px;
-}
-
-
-
-
-
-@media (min-width: 640px) {
-    .header {
-        max-width: 100%;
-    }
-  
 }
