@@ -359,7 +359,7 @@ footer {
       font-size: 60px;
       margin: auto;
    }
-   
+
    .container header p {
       color: var(--black);
       text-align: center;
@@ -391,7 +391,6 @@ footer {
    .description-xc60 h4 {
       font-family: 'Poppins';
       font-size: 40px;
-      font-weight: 900;
       margin-bottom: 120px;
    }
 
@@ -420,9 +419,6 @@ footer {
    .image-v40 {
       grid-area: row5;
       background-image: url(/CSS_Page_Layout_Mobile/images/mobile/v40.jpg);
-      background-position: center bottom;
-      background-repeat: no-repeat;
-      background-size: cover;
       padding: 80px;
       text-align: center;
    }
@@ -430,9 +426,6 @@ footer {
    .image-v40cross {
       grid-area: row6;
       background-image: url(/CSS_Page_Layout_Mobile/images/mobile/v40crosscountry.jpg);
-      background-position: center bottom;
-      background-repeat: no-repeat;
-      background-size: cover;
       padding: 80px;
       text-align: center;
    }
@@ -441,7 +434,6 @@ footer {
    .image-v40cross h4 {
       font-family: 'Poppins';
       font-size: 40px;
-      font-weight: 900;
       align-content: end;
       margin: 20% 0 140% 0%;
    }
@@ -494,10 +486,7 @@ footer {
    }
 
    .testimonials h2 {
-      font-family: 'Poppins';
       font-size: 32px;
-      text-align: center;
-      text-transform: uppercase;
       letter-spacing: 8px;
       margin: 40px 0px 120px 0px;
    }
@@ -512,11 +501,11 @@ footer {
       line-height: 1.5;
       margin-bottom: 40px;
    }
-   
+
    .testimonials-client p:last-child {
       font-size: 20px;
    }
-   
+
    .testimonials-client h4 {
       font-family: 'Poppins';
       font-size: 36px;
@@ -527,5 +516,4 @@ footer {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
    }
-
 }
