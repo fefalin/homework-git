@@ -61,7 +61,7 @@ window.onload = event => {
         }
     }
     paper.onclick = event => {
-        playerChoice.innerText = 'PAPER';
+        playerChoice.getElementsByTagName('img')[0].src = './images/paper.png';
         playerChoiceValue = "Paper";
         computerChoiceValue = getChoice(gameOptions);
         computerChoice.innerText = computerChoiceValue.toUpperCase();
@@ -76,7 +76,7 @@ window.onload = event => {
         }
     }
     scissors.onclick = event => {
-        playerChoice.innerText = 'SCISSORS';
+        playerChoice.getElementsByTagName('img')[0].src = './images/scissors.png';
         playerChoiceValue = "Scissors";
         computerChoiceValue = getChoice(gameOptions); 
         computerChoice.innerText = computerChoiceValue.toUpperCase();

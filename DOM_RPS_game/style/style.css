@@ -10,15 +10,23 @@
     --grey: #535353;
 }
 
-body,
-html {
+* {
     padding: 0;
     margin: 0;
+}
+
+
+body,
+html {
     width: 100%;
     height: 100%;
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
+}
+
+li {
+    list-style-type: none;
 }
 
 body {
@@ -29,8 +37,6 @@ body {
 }
 
 p {
-    padding: 0;
-    margin: 0;
     font-family: 'PT Sans';
     color: var(--grey);
 }
@@ -50,7 +56,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 60px;
+    gap: 80px;
 }
 
 .logo-play>img {
@@ -60,10 +66,6 @@ p {
 #play img {
     height: 100px;
 }
-
-/* #play img:hover {
-    height: 120px;
-} */
 
 .items img {
     height: 100px;
@@ -110,6 +112,7 @@ p {
     justify-content: center;
     height: 600px;
     align-items: flex-end;
+    margin-bottom: 20px;
 }
 
 .logo-page-2 img {
@@ -128,16 +131,7 @@ p {
     padding: 10px;
 }
 
-.player-container {
-    background-color: var(--vlight-grey);
-    width: 400px;
-    height: 300px;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px 2px var(--grey);
-}
-
+.player-container,
 .computer-container {
     background-color: var(--vlight-grey);
     width: 400px;
@@ -146,6 +140,7 @@ p {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 2px var(--grey);
+    position: relative;
 }
 
 h3 {
@@ -158,15 +153,39 @@ h3 {
     padding: 8px 0px 24px 0px;
 }
 
+.rps-options {
+    display: inline-block;
+    background-color: var(--white);
+    box-shadow: 0px 0px 15px 2px var(--grey);
+    border-radius: 10px;
+    width: 920px;
+    padding: 10px 0px;
+}
+
 .btn-list {
     display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 
 .btn-style button {
     background: none;
     border: none;
+    cursor: pointer;
 }
 
 .btn-style img {
-    height: 60px;
+    height: 80px;
+    padding: 8px;
+}
+
+.animation:hover {
+    transform: scale(0.9);
+}
+
+#player-choice img {
+    width: 40%;
+    position: absolute;
+    left: 130px;
+    top: 130px;
 }
