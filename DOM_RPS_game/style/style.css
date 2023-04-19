@@ -143,6 +143,12 @@ p {
     position: relative;
 }
 
+.player-container p,
+.computer-container p {
+    font-family: 'Clarence-Alt-Shine';
+    text-transform: capitalize;
+}
+
 h3 {
     font-family: 'Clarence-Alt-Shine';
     font-size: 54px;
@@ -180,7 +186,7 @@ h3 {
 }
 
 .animation:hover {
-    transform: scale(0.9);
+    transform: scale(1.1);
 }
 
 #player-choice img {

@@ -36,7 +36,6 @@ window.onload = event => {
     const rock = document.getElementById('select-rock');
     const paper = document.getElementById('select-paper');
     const scissors = document.getElementById('select-scissors'); 
-    const winner = document.getElementById('winner');
     const playerScore = document.getElementById('player-score');
     const computerScore = document.getElementById('computer-score');
     let playerChoiceValue;
@@ -44,14 +43,13 @@ window.onload = event => {
     let result;
     let playerScoreValue = 0;
     let computerScoreValue = 0;
+
     rock.onclick = event => {
         playerChoice.getElementsByTagName('img')[0].src = './images/rock.png';
-        //console.log(playerChoice.getElementsByTagName('img'));
         playerChoiceValue = "Rock";
         computerChoiceValue = getChoice(gameOptions);
         computerChoice.innerText = computerChoiceValue.toUpperCase();
         result = check(playerChoiceValue, computerChoiceValue);
-        //winner.innerText = result;
         if (result === 'PLAYER') {
             playerScoreValue += 1;
             playerScore.innerText = playerScoreValue;
@@ -60,13 +58,13 @@ window.onload = event => {
             computerScore.innerText = computerScoreValue;
         }
     }
+
     paper.onclick = event => {
         playerChoice.getElementsByTagName('img')[0].src = './images/paper.png';
         playerChoiceValue = "Paper";
         computerChoiceValue = getChoice(gameOptions);
         computerChoice.innerText = computerChoiceValue.toUpperCase();
         result = check(playerChoiceValue, computerChoiceValue);
-        //winner.innerText = result;
         if (result === 'PLAYER') {
             playerScoreValue += 1;
             playerScore.innerText = playerScoreValue;
@@ -75,13 +73,13 @@ window.onload = event => {
             computerScore.innerText = computerScoreValue;
         }
     }
+    
     scissors.onclick = event => {
         playerChoice.getElementsByTagName('img')[0].src = './images/scissors.png';
         playerChoiceValue = "Scissors";
         computerChoiceValue = getChoice(gameOptions); 
         computerChoice.innerText = computerChoiceValue.toUpperCase();
         result = check(playerChoiceValue, computerChoiceValue);
-        //winner.innerText = result;
         if (result === 'PLAYER') {
             playerScoreValue += 1;
             playerScore.innerText = playerScoreValue;
