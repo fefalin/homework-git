@@ -1,0 +1,21 @@
+.slider {
+  margin-top: 100px;
+}
+
+.slider-img {
+  width: 200px;
+  height: 200px;
+  padding: 8px;
+  filter: drop-shadow(0px 0px 2px var(--white));
+}
+
+/* .list_slide {
+  display: grid;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  box-shadow: 0 0 1rem grey;
+  background: white;
+  line-height: 2;
+} */

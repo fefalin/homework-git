@@ -1,0 +1,180 @@
+body {
+    transition: all 0.4s ease-in-out;
+}
+
+.dark-mode nav {
+    background-color: var(--darkM);
+    border-radius: 16px;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.dark-mode {
+    background-color: black;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h6,
+.dark-mode p,
+.dark-mode span {
+    color: var(--grey);
+}
+
+.dark-mode .form-label {
+    color: var(--grey);
+}
+
+.dark-mode .fa-brands {
+    color: var(--grey);
+    border: 1px solid var(--grey);
+    border-radius: 50%;
+}
+
+.dark-mode .fa-brands:hover {
+    color: var(--red);
+    border: 1px solid var(--red);
+    border-radius: 50%;
+}
+
+.dark-mode .btn-close {
+    opacity: 1;
+    background-color: var(--grey);
+}
+
+.dark-mode .btn-close:hover {
+    background-color: var(--red);
+}
+
+.dark-mode .btn-secondary {
+    background-color: var(--grey);
+    color: var(--dark-blue);
+}
+
+.dark-mode .btn-secondary:hover {
+    background-color: var(--red);
+    color: var(--grey);
+}
+
+.dark-mode .ch-name {
+    color: var(--red);
+}
+
+/* .dark-mode .technologies, */
+.dark-mode .about-me {
+    background-color: var(--darkM);
+    transition: all 0.4s ease-in-out;
+}
+
+.dark-mode .nav-link {
+    color: var(--grey);
+}
+
+.dark-mode .btn-cv {
+    background-color: var(--red);
+    color: var(--grey);
+}
+
+.dark-mode .btn-cv:not(:hover) {
+    background-color: var(--red);
+    color: var(--grey);
+    border: none;
+}
+
+.dark-mode .btn-cv:hover {
+    transform: scale(1.1);
+}
+
+.dark-mode .btn-contact {
+    background-color: var(--yellow);
+    color: var(--darkM);
+}
+
+.dark-mode .btn-contact:not(:hover) {
+    background-color: var(--yellow);
+    color: var(--darkM);
+    border: none;
+}
+
+.dark-mode .btn-contact:hover {
+    transform: scale(1.1);
+}
+
+.dark-mode .fa-lightbulb {
+    color: var(--white);
+}
+
+.dark-mode .fa-lightbulb:hover {
+    color: var(--grey);
+    transform: scale(1.1);
+}
+
+.dark-logo {
+    display: none;
+}
+
+.dark-mode .dark-logo {
+    display: block;
+}
+
+.dark-mode .block-title img {
+    filter: brightness(20);
+}
+
+.dark-mode .navbar-toggler-icon {
+    filter: brightness(20);
+}
+
+.dark-mode .skills {
+    background-color: black;
+}
+
+.dark-mode .yellow {
+    color: var(--dark-blue);
+}
+
+.dark-mode .portfolio {
+    background-color: var(--darkM);
+}
+
+.dark-mode .portfolio:hover {
+    background-color: var(--red);
+}
+
+.dark-mode .modal-header {
+    background-color: var(--darkM);
+    border: none;
+}
+
+.dark-mode .modal-body {
+    background-color: var(--darkM);
+}
+
+.dark-mode .modal-footer {
+    background-color: var(--darkM);
+    border: none;
+}
+
+.dark-mode .modal-header h5 {
+    color: var(--grey);
+}
+
+.dark-mode .footer {
+    background-color: var(--darkM);
+    transition: all 0.4s ease-in-out;
+}
+
+.dark-mode .social-icons a {
+    color: var(--grey);
+}
+
+.dark-mode .social-icons a:hover {
+    color: var(--red);
+}
+
+.dark-mode .item-period {
+    background-color: var(--darkM);
+    color: var(--grey);
+}

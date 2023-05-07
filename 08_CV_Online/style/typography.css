@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: url(../typography/fonts/NotoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Noto Sans Medium";
+    src: url(../typography/fonts/NotoSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Noto Sans SemiBold";
+    src: url(../typography/fonts/NotoSans-SemiBold.ttf);
+}
+
+* {
+    font-family: "Noto Sans Medium";
+}
+
+.font-primary {
+    font-family: "Noto Sans Medium";
+    color: var(--light-blue);
+}
+
+.font-bold {
+    font-family: "Noto Sans SemiBold";
+    color: var(--dark-blue);
+}
+
