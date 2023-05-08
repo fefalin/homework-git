@@ -2,13 +2,6 @@ body {
     transition: all 0.4s ease-in-out;
 }
 
-.dark-mode nav {
-    background-color: var(--darkM);
-    border-radius: 16px;
-    transition: all 0.4s ease-in-out;
-}
-
-
 .dark-mode {
     background-color: black;
 }
@@ -23,6 +16,12 @@ body {
     color: var(--grey);
 }
 
+.dark-mode nav {
+    background-color: var(--darkM);
+    border-radius: 16px;
+    transition: all 0.4s ease-in-out;
+}
+
 .dark-mode .form-label {
     color: var(--grey);
 }
@@ -33,7 +32,19 @@ body {
     border-radius: 50%;
 }
 
+.dark-mode .fa-envelope {
+    color: var(--grey);
+    border: 1px solid var(--grey);
+    border-radius: 50%;
+}
+
 .dark-mode .fa-brands:hover {
+    color: var(--red);
+    border: 1px solid var(--red);
+    border-radius: 50%;
+}
+
+.dark-mode .fa-envelope:hover {
     color: var(--red);
     border: 1px solid var(--red);
     border-radius: 50%;
@@ -107,6 +118,15 @@ body {
 }
 
 .dark-mode .fa-lightbulb:hover {
+    color: var(--grey);
+    transform: scale(1.1);
+}
+
+.dark-mode .fa-flag {
+    color: var(--white);
+}
+
+.dark-mode .fa-flag:hover {
     color: var(--grey);
     transform: scale(1.1);
 }
